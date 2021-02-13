@@ -5,7 +5,6 @@
 ```
 .
 ├─ README.md
-├─ config.sh
 ├─ Trace
 |   ├─ data
 |   |   ├─ blk_data.txt
@@ -30,12 +29,11 @@
 |Source code|Explanation|Data|
 |----|-----------|------|
 |README.md|||
-|config.sh| Enables configurations and install at once ||
-|blk_data.txt| All programs can be executed ||
-|parsing_data.csv| Download TripFiles from Firebase |TripFiles|
-|trace_leveldb.py| TripFiles: trip file unzip |unzip TripFiles|
-|parsing.py| Google Storage account file ||
-|time_data.csv| Classify TripFiles according to conditions |RefineFiles|
+|blk_data.txt| Leveldb tracing data ||
+|parsing_data.csv| Parsing data |blk_data.txt|
+|trace_leveldb.py| Leveldb trace through blktrace |unzip TripFiles|
+|parsing.py| Parsing blk_data to generate csv ||
+|time_data.csv|  ||
 |k_blk.py| Google Storage account file ||
 
 
