@@ -23,8 +23,8 @@
 
 |Directory|Explanation|
 |---------|-----------|
-|Trace| TripFiles Download and unzip |
-|Kmeans| Classify the data using normalized values and create a refined refine_file.csv file |
+|Trace| Trace file parsing and make csv |
+|Kmeans| Clustering using csv |
 
 
 |Source code|Explanation|Data|
