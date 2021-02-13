@@ -45,11 +45,5 @@ Configuration and API Install code.
 
 
 ## Estimator
-
-### Usage Help
 	
 	# ./Estimator.sh -h
-
-or
-
-	# ./Estimator.sh -?
