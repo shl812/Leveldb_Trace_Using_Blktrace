@@ -23,19 +23,21 @@
 
 |Directory|Explanation|
 |---------|-----------|
-|InitData| TripFiles Download and unzip |
-|RefineData| Classify the data using normalized values and create a refined refine_file.csv file |
+|Trace| TripFiles Download and unzip |
+|Kmeans| Classify the data using normalized values and create a refined refine_file.csv file |
 
 
 |Source code|Explanation|Data|
 |----|-----------|------|
 |README.md|||
 |config.sh| Enables configurations and install at once ||
-|Estimator.sh| All programs can be executed ||
-|vlogger.py| Download TripFiles from Firebase |TripFiles|
-|unzip.sh| TripFiles: trip file unzip |unzip TripFiles|
-|service_account.json| Google Storage account file ||
-|refine_classified.sh| Classify TripFiles according to conditions |RefineFiles|
+|blk_data.txt| All programs can be executed ||
+|parsing_data.csv| Download TripFiles from Firebase |TripFiles|
+|trace_leveldb.py| TripFiles: trip file unzip |unzip TripFiles|
+|parsing.py| Google Storage account file ||
+|time_data.csv| Classify TripFiles according to conditions |RefineFiles|
+|k_blk.py| Google Storage account file ||
+
 
 ## Configuration and Install
 
