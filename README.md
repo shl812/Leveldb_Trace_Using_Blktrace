@@ -25,6 +25,31 @@
 |---------|-----------|
 |InitData| TripFiles Download and unzip |
 |RefineData| Classify the data using normalized values and create a refined refine_file.csv file |
-|Overspeed| Counts the number of overspeed by comparing the user's driving DB with the road information DB |
-|Groundtruth| Using clustering algorithms, we create groundtruth to be used in the driving score |
-|Regression| Groundtruth-based Driving Score Estimate is performed using regression algorithms |
+
+
+|Source code|Explanation|Data|
+|----|-----------|------|
+|README.md|||
+|config.sh| Enables configurations and install at once ||
+|Estimator.sh| All programs can be executed ||
+|vlogger.py| Download TripFiles from Firebase |TripFiles|
+|unzip.sh| TripFiles: trip file unzip |unzip TripFiles|
+|service_account.json| Google Storage account file ||
+|refine_classified.sh| Classify TripFiles according to conditions |RefineFiles|
+
+## Configuration and Install
+
+Configuration and API Install code.
+
+	# sudo source config.sh
+
+
+## Estimator
+
+### Usage Help
+	
+	# ./Estimator.sh -h
+
+or
+
+	# ./Estimator.sh -?
