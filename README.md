@@ -13,12 +13,12 @@
 |   └─ src
 |       ├─ trace_leveldb.py
 |       └─ parsing.py
-├─ Kmeans
-|   ├─ data
-|   |   ├─ time_data.csv
-|   |   └─ parsing_data.csv
-|   └─ src
-|       └─ k_blk.py
+└─ Kmeans
+    ├─ data
+    |   ├─ time_data.csv
+    |   └─ parsing_data.csv
+    └─ src
+        └─ k_blk.py
 ```
 
 |Directory|Explanation|
