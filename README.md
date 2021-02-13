@@ -30,11 +30,11 @@
 |----|-----------|------|
 |README.md|||
 |blk_data.txt| Leveldb tracing data ||
-|parsing_data.csv| Parsing data |blk_data.txt|
-|trace_leveldb.py| Leveldb trace through blktrace |unzip TripFiles|
-|parsing.py| Parsing blk_data to generate csv ||
+|parsing_data.csv| Parsing data ||
+|trace_leveldb.py| Leveldb trace through blktrace ||
+|parsing.py| Parsing blk_data to generate csv |blk_data.txt|
 |time_data.csv|  ||
-|k_blk.py| Google Storage account file ||
+|k_blk.py| Google Storage account file |parsing_data.csv, time_data.csv|
 
 
 ## Configuration and Install
