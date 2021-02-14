@@ -47,3 +47,9 @@ Configuration and API Install code.
 ## Parsing
 	
 	# Python3 parsing.py
+	
+## Contact
+**Dankook University**
+
+**Sounghyoun Lee**  
+E-mail - _leesh812@dankook.ac.kr_
