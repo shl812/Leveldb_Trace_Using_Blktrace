@@ -41,9 +41,9 @@
 
 Configuration and API Install code.
 
-	# sudo source config.sh
+	# Python3 trace_leveldb.py
 
 
-## Estimator
+## Parsing
 	
-	# ./Estimator.sh -h
+	# Python3 parsing.py
